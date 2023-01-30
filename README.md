@@ -9,9 +9,9 @@ This script is a simple Python 3 script that parses a tab-separated values file,
 Here is a flowchart of the script flow using Mermaid code:
 
 ```memaid
-  A[Parse tsv file] ---> B[Render template for each row]
-  B ---> C[Save rendered template to tempfile]
-  C ---> D[Concatenate tempfiles]
+A[Parse tsv file] ---> B[Render template for each row]
+B ---> C[Save rendered template to tempfile]
+C ---> D[Concatenate tempfiles]
 ```
 
 ## Requirements
