@@ -15,6 +15,15 @@ Here is a flowchart of the script flow using Mermaid code:
       C ---> D[Concatenate tempfiles];
 ```
 
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## Requirements
 
 The following packages are required to use this script:
