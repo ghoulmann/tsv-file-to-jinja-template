@@ -51,7 +51,7 @@ To use this script with pipenv, follow these steps:
 
    ```shell
    pipenv shell
-   python script.py
+   python tsv2Jinja.py
    ```
    
 ## Instructions for use with conda env
@@ -86,5 +86,5 @@ To use this script with conda env, follow these steps:
 6. Run the script:
 
    ```shell
-   python script.py
+   python tsv2jinja.py
    ```
