@@ -8,7 +8,7 @@ This script is a simple Python 3 script that parses a tab-separated values file,
 
 Here is a flowchart of the script flow using Mermaid code:
 
-```memaid
+```mermaid
 graph TD;
       A[Parse tsv file]-->B[Render template for each row];
       B-->C[Save rendered template to tempfile];
@@ -60,10 +60,11 @@ To use this script with conda env, follow these steps:
 
 1. Install conda if you don't have it already:
 
-  ```shell
+   ```shell
    curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh
    chmod +x miniconda.sh
    ./miniconda.sh
+   ```
 
 2. Clone this repository to your local machine.
 3. Change to the directory containing the repository and create a conda environment:
