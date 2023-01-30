@@ -9,19 +9,10 @@ This script is a simple Python 3 script that parses a tab-separated values file,
 Here is a flowchart of the script flow using Mermaid code:
 
 ```memaid
- flowchart TD;
-      A[Parse tsv file] ---> B[Render template for each row];
-      B ---> C[Save rendered template to tempfile];
-      C ---> D[Concatenate tempfiles];
-```
-
-
-```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+      A[Parse tsv file]-->B[Render template for each row];
+      B-->C[Save rendered template to tempfile];
+      C-->D[Concatenate tempfiles];
 ```
 
 ## Requirements
